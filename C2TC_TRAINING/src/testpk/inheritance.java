@@ -1,10 +1,20 @@
 package testpk;
+class inheritance
+{
+    int amt_withdraw=20000;
+    
+}
 
-public class inheritance {
+public class atm extends withdraw 
+{
+    
+int amt_left=5000;
+public static void main(String args[])
+{  
+atm ob1=new atm()
+System.out.println(“amount withdraw”+ob1.amt_withdraw);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+System.out.println(“amount withdraw”+ob1.amt_left);
 
-	}
-
+}
 }

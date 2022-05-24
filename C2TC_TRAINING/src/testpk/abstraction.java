@@ -6,7 +6,7 @@ abstract class atm
     
 }
 
-public class DataAbstraction extends atm 
+public class dataAbstraction extends atm 
 {
     
 void withdraw()
@@ -17,7 +17,7 @@ void withdraw()
 
 public static void main(String args[])
 {  
-    DataAbstraction ob1 =new DataAbstraction();
+    dataAbstraction ob1 =new dataAbstraction();
     ob1.withdraw();
 }
 }
