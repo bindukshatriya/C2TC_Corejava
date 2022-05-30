@@ -1,5 +1,4 @@
 package threadpg;
-
 public class staticblock {
 	static int a;
 	static int b;
@@ -15,5 +14,4 @@ public class staticblock {
 	System.out.println("value of a="+a);
 	System.out.println("value of b="+b);
 	}
-
 }
