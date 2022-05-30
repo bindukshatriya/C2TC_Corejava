@@ -6,8 +6,7 @@ abstract class atm
     
 }
 
-public class dataAbstraction extends atm 
-{
+public class dataAbstraction extends atm {
     
 void withdraw()
 {

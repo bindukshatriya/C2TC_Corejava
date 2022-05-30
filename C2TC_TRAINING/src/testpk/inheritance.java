@@ -5,16 +5,15 @@ class inheritance
     
 }
 
-public class atm extends withdraw 
+public class atm extends inheritance
 {
     
 int amt_left=5000;
 public static void main(String args[])
 {  
-atm ob1=new atm()
-System.out.println(“amount withdraw”+ob1.amt_withdraw);
-
-System.out.println(“amount withdraw”+ob1.amt_left);
-
+atm ob1=new atm();
+System.out.println(“amount”+ob1.amt_withdraw);
+{
+System.out.println(“amount”+ob1.amt_left);
 }
 }

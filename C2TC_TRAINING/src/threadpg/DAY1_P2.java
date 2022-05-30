@@ -18,7 +18,6 @@ public class DAY1_P2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
          DAY1_P2 ob=new DAY1_P2();
-         DAY1_P2 ob1=new DAY1_P2();
          ob.disp1();
          ob.disp2();
 	}
