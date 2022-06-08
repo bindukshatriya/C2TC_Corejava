@@ -13,7 +13,6 @@ public class simplecalculator {
 	{
 		// TODO Auto-generated method stub
        simplecalculator obj=new simplecalculator();
-	   obj.prnsqr("i");
        obj.prnsqr('a');
        obj.prnsqr(3);
  
