@@ -26,7 +26,7 @@ public class nestedtry1 {
        catch(ArrayIndexOutOfBoundsException aie)
        {
     	   System.out.println("exception thrown");
-    	   System.out.println(aie.toString());
+    	  System.out.println(aie.toString());
        }
        System.out.println("out of block");
 	}
